@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+ 
+  <title>Management Module</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+
+
+<body>
+
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-top" style="background-color: #151f28; ">
+
+    <!-- Navbar brand -->
+    <img src="images/ahly_logo.png" style="max-height: 55px;">
+
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="basicExampleNav">
+
+      <!-- Links -->
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <p class="custom-title" style="font-size: 22px; color: #f2cb59; font-family: serif; margin-left:10px; margin-top: 10px; ">
+          El Ahly SC</p>
+        </li>
+      </ul>
+    </div>
+    <button class="btn" style="background: #960d08; color: #f2cb59">Log out <i class="fa fa-user-circle-o" aria-hidden="true" style="color:#f2cb59 "></i></button>
+    
+    <div id="mySidenav" class="sidenav" onmouseover="openNav()" onmouseout="closeNav()" onload="closeNav()">
+      <div id="sidenavOpen"  style="display:none;">
+        <p><i class="fa fa-bell-o icon-color" aria-hidden="true"></i>
+          <strong style="margin-left: 12px;"> Notifications <span class="badge badge-custom">6</span></strong>
+        </p>
+        <p><i class="fa fa-list-alt icon-color" aria-hidden="true"></i><strong style="margin-left: 12px;"> Latest activities</strong></p>
+        <p><i class="fa fa-envelope-o icon-color" aria-hidden="true"></i><strong style="margin-left: 12px;"> Mailbox</strong></p>
+        <p><i class="fa fa-calendar icon-color" aria-hidden="true"></i><strong style="margin-left: 12px;"> Calendar</strong></p>
+        <p><i class="fa fa-facebook-square icon-color" aria-hidden="true"></i><strong style="margin-left: 12px;"> Facebook</strong></p>
+        <p><i class="fa fa-twitter-square icon-color" aria-hidden="true"></i><strong style="margin-left: 12px;"> Twitter</strong></p>
+
+      </div>
+      <div id="sidenavClosed">
+        <p><i class="fa fa-bell-o badge1 icon-color"  data-badge="6" aria-hidden="true"></i></p>
+        <p><i class="fa fa-list-alt badge1 icon-color" aria-hidden="true"></i></p>
+        <p><i class="fa fa-envelope-o badge1 icon-color" aria-hidden="true"></i></p>
+        <p><i class="fa fa-calendar badge1 icon-color" aria-hidden="true"></i></p>
+        <p><i class="fa fa-facebook-square badge1 icon-color" aria-hidden="true"></i></p>
+        <p><i class="fa fa-twitter-square badge1 icon-color" aria-hidden="true"></i></p>
+      </div>
+    </div>
+  </nav>
+
+
+  <!--/.Navbar-->
+
+  <div class="container" style="margin-top: 100px; margin-left: 250px;">
+    <div class="row spacings">
+      <div class="col">
+        <div class="projectMang">
+          <a href="#">
+            <div class="card" style="width: 12rem; height:11rem;">
+              <center><img class="img-responsive" style="max-height: 70px; max-width: 70px;" src="images/Online_Presence_Management-512.png"></center>
+              <div class="card-body">
+                <center class="card-title"><strong>Online Communication</strong></center>
+              </div>
+            </div>
+          </a>
+          <div class="projectMangDesc" style="top:15px;">
+            <div class="card" style="width:20rem;height: 10rem;">
+              <strong>Some description for Online Communications</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="projectMang">
+          <a href="">
+            <div class="card" style="width: 12rem;">
+              <center><img class="img-responsive" style="max-height: 70px; max-width: 70px;" src="images/users_meeting.png"></center>
+              <div class="card-body">
+                <center class="card-title"><strong>Meetings Organization</strong></center>
+              </div>
+            </div>
+          </a>
+          <div class="projectMangDesc" style="right:55px; top:15px">
+            <div class="card" style="width:20rem;height: 10rem;">
+              <strong>Some description for Meeting Organization</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="projectMang">
+        	<a href="#">
+	          <div class="card" style="width: 12rem; height: 11rem;">
+	            <center><img class="img-responsive" style="max-height: 70px; max-width: 70px;" src="images/briefcase-icon.png"></center>
+	            <div class="card-body">
+	              <center class="card-title"><strong>Issuing work orders</strong></center>
+	            </div>
+	          </div>
+          </a>
+          <div class="projectMangDesc" style="top:15px; right: 125px">
+            <div class="card" style="width:20rem;height: 10rem;">
+              <strong>Some description for Issuing Work Orders</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row spacings">
+      <div class="col">
+        <div class="projectMang">
+        	<a href="#">
+	          <div class="card" style="width: 12rem; height: 11rem">
+	            <center><img class="img-responsive" style="max-height: 70px; max-width: 70px;" src="images/images.jpg"></center>
+	            <div class="card-body">
+	              <center class="card-title"><strong>Database</strong></center>
+	            </div>
+	          </div>
+          </a>
+          <div class="projectMangDesc" style="top:15px; ">
+            <div class="card" style="width:20rem;height: 10rem;">
+              <strong>Some description for Database</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="projectMang">
+        	<a href="#">
+	          <div class="card" style="width: 12rem; height: 11rem">
+	            <center><img class="img-responsive" style="max-height: 70px; max-width: 70px;" src="images/800px_COLOURBOX12863191.jpg"></center>
+	            <div class="card-body">
+	              <center class="card-title"><strong>Profile</strong></center>
+	            </div>
+	          </div>
+          </a>
+          <div class="projectMangDesc" style="top:15px; right: 55px">
+            <div class="card" style="width:20rem;height: 10rem;">
+              <strong>Some description for profile</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="projectMang">
+        	<a href="index.html">
+	          <div class="card" style="width: 12rem; height: 11rem">
+	            <center><img class="img-responsive" style="max-height: 70px; max-width: 70px;" src="images/122-512.png"></center>
+	            <div class="card-body">
+	              <center class="card-title"><strong>Project Management</strong></center>
+	            </div>
+	          </div>
+          </a>
+          <div class="projectMangDesc" style="top:15px; right: 125px">
+            <div class="card" style="width:20rem;height: 10rem;">
+              <strong>Some description for Project Managment</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col">
+        <div class="projectMang">
+        	<a href="#">
+	          <div class="card" style="width: 12rem; height: 11rem; ">
+	            <center><img class="img-responsive" style="max-height: 70px; max-width: 70px;" src="images/CMO-Membership-icon.jpg"></center>
+	            <div class="card-body">
+	              <center class="card-title"><strong>Memberships</strong></center>
+	            </div>
+	          </div>
+          </a>
+          <div class="projectMangDesc" style="bottom: 350px;">
+            <div class="card" style="width:20rem;height: 10rem;">
+              <strong>Some discription for project Managment</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="projectMang">
+        	<a href="#">
+	          <div class="card" style="width: 12rem; height: 11rem;">
+	            <center><img class="img-responsive" style="max-height: 70px; max-width: 70px;" src="images/xqhvwugeksohjulylbjc.png"></center>
+	            <div class="card-body">
+	              <center class="card-title"><strong>Reports Issuing And Circulation</strong></center>
+	            </div>
+	          </div>
+          </a>
+          <div class="projectMangDesc" style="bottom: 350px; right: 55px">
+            <div class="card" style="width:20rem;height: 10rem;">
+              <strong>Some description for Reports Issuing And Circulation</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="projectMang">
+        	<a href="#">
+	          <div class="card" style="width: 12rem; height: 11rem;">
+	            <center><img class="img-responsive" style="max-height: 70px; max-width: 70px;" src="images/hr.jpg"></center>
+	            <div class="card-body">
+	              <center class="card-title"><strong>Human Resources</strong></center>
+	            </div>
+	          </div>
+          </a>
+          <div class="projectMangDesc" style="bottom: 350px; right: 125px">
+            <div class="card" style="width:20rem;height: 10rem;">
+              <strong>Some description for Human Resources</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <!-- SCRIPTS -->
+
+  <script type="text/javascript" src="scripts.js"></script>
+</body>
+
+</html>

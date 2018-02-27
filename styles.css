@@ -1,0 +1,191 @@
+.projectMang{width: 10rem; height: 10rem;}
+
+ .projectMang .projectMangDesc{
+ 	background-color: white ;
+ 	z-index: 1;
+ 	position: relative;
+ 	top: 10%;
+ 	width: 200px;
+ 	height: 40px ;
+ 	visibility: hidden; }
+
+
+.projectMang:hover .projectMangDesc{
+
+  visibility: visible;
+  opacity: 0.1;
+
+-webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes fadeInDown {
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(0, -100%, 0);
+  transform: translate3d(0, -100%, 0);
+  }
+  100% {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+  }
+  }
+  @keyframes fadeInDown {
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(0, -100%, 0);
+  transform: translate3d(0, -100%, 0);
+  }
+  100% {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+  }
+  }
+
+
+}
+
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.spacings{
+  margin-bottom: 40px;
+}
+
+.sidenav {
+    height: 100vh;
+    width: 40px;
+    z-index: 1;
+    left: 0;
+    background-color: #960d08;//ffc300
+    overflow-x: hidden;
+    transition: 0.3s;
+    padding-top: 60px;
+}
+
+.navbar-top .sidenav{
+  position: absolute;
+  top: 75px;
+}
+
+html{
+  height: 100%;
+}
+
+.icon-color{
+  color: #f2cb59;
+}
+
+#sidenavOpen {
+    padding: 8px 8px 8px ;
+    text-decoration: none;
+    font-size: 15px;
+    color: #edf2f4;
+    display: block;
+    transition: 0.3s;
+    cursor: pointer;
+
+}
+
+#sidenavClosed{
+      padding: 8px 8px 8px ;
+      color: #edf2f4;
+      display: block;
+      transition: 0.3s;
+      cursor: pointer;
+}
+
+.projectMang a{
+  text-decoration: none;
+  color: black;
+}
+.projectMang a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.badge1 {
+   position:relative;
+}
+.badge1[data-badge]:after {
+   content:attr(data-badge);
+   position:absolute;
+   top:-10px;
+   right:-10px;
+   font-size:.7em;
+   background:#151f28;
+   color:white;
+   width:18px;height:18px;
+   text-align:center;
+   line-height:18px;
+   border-radius:50%;
+   box-shadow:0 0 1px #333;
+}
+
+.badge-custom{
+  margin-left:40px;
+  background-color: #151f28;
+}
+/* projects style */
+.container{
+  width: 70% !important;
+  padding-top: 20px;
+} 
+.top-card{
+  border: 2px solid gray;
+  float: left;
+  margin-right: 20px;
+}
+.projects{
+  float: left;
+}
+.project-details{
+  background-color: lightgray;
+  margin-bottom: 3px;
+}
+.done{
+  color: white;
+  background-color:#21c321;
+  border-radius: 50%;
+  text-align: center;
+}
+ol li{
+  background-color: lightgray;
+  border-bottom: 1px solid white;
+}
+ol{
+list-style-type: none;
+}
+p span{
+  color: blue;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+.card-border{
+  border: 1px solid lightgray;
+  padding: 10px 0;
+  margin-top: 20px;
+}
+

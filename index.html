@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+
+  <title>Management Module</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+
+
+
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-top" style="background-color: #151f28; ">
+
+    <!-- Navbar brand -->
+    <img src="images/ahly_logo.png" style="max-height: 55px;">
+
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="basicExampleNav">
+
+      <!-- Links -->
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <p class="custom-title" style="font-size: 22px; color: #f2cb59; font-family: serif; margin-left:10px; margin-top: 10px; ">
+          El Ahly SC</p>
+        </li>
+      </ul>
+    </div>
+    <button class="btn" style="background: #960d08;">Log out <i class="fa fa-user-circle-o" aria-hidden="true"></i></button>
+    
+    <div id="mySidenav" class="sidenav" onmouseover="openNav()" onmouseout="closeNav()" onload="closeNav()">
+      <div id="sidenavOpen"  style="display:none;">
+        <p><i class="fa fa-bell-o icon-color" aria-hidden="true"></i>
+          <strong style="margin-left: 12px;"> Notifications <span class="badge badge-custom">6</span></strong>
+        </p>
+        <p><i class="fa fa-list-alt icon-color" aria-hidden="true"></i><strong style="margin-left: 12px;"> Latest activities</strong></p>
+        <p><i class="fa fa-envelope-o icon-color" aria-hidden="true"></i><strong style="margin-left: 12px;"> Mailbox</strong></p>
+        <p><i class="fa fa-calendar icon-color" aria-hidden="true"></i><strong style="margin-left: 12px;"> Calendar</strong></p>
+        <p><i class="fa fa-facebook-square icon-color" aria-hidden="true"></i><strong style="margin-left: 12px;"> Facebook</strong></p>
+        <p><i class="fa fa-twitter-square icon-color" aria-hidden="true"></i><strong style="margin-left: 12px;"> Twitter</strong></p>
+
+      </div>
+      <div id="sidenavClosed">
+        <p><i class="fa fa-bell-o badge1 icon-color"  data-badge="6" aria-hidden="true"></i></p>
+        <p><i class="fa fa-list-alt badge1 icon-color" aria-hidden="true"></i></p>
+        <p><i class="fa fa-envelope-o badge1 icon-color" aria-hidden="true"></i></p>
+        <p><i class="fa fa-calendar badge1 icon-color" aria-hidden="true"></i></p>
+        <p><i class="fa fa-facebook-square badge1 icon-color" aria-hidden="true"></i></p>
+        <p><i class="fa fa-twitter-square badge1 icon-color" aria-hidden="true"></i></p>
+      </div>
+    </div>
+  </nav>
+
+
+  <!--/.Navbar-->
+  
+  
+  
+      <div class="container">
+      <button type="button" class="btn btn-info">Latest</button>
+      <button type="button" class="btn btn-success">Done</button>
+      <button type="button" class="btn btn-warning">in progress</button>
+      <div class="row card-border">
+          <div class="col-md-7">
+            <a href="#">
+              <img class="img-fluid rounded mb-3 mb-md-0" src="images/project1.jpg" alt="project1">
+            </a>
+          </div>
+          <div class="col-md-5">
+            <h3>Project One</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.</p>
+            
+          </div>
+        </div>
+        <div class="col-md-12">
+          <p class="project-details"><span>assigned to:</span> El-mokawleen El-Arab</p>
+          <p class="project-details"><span>status:</span> Done with testing</p>
+          <p class="project-details"><span>from:</span>15 March 2016<span>till: </span> july 2018</p> 
+        </div>
+        <div class="row card-border">
+          <div class="col-md-7">
+            <a href="#">
+              <img class="img-fluid rounded mb-3 mb-md-0" src="images/project2.jpg" alt="project1">
+            </a>
+          </div>
+          <div class="col-md-5">
+            <h3>Project One</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.</p>
+            
+          </div>
+        </div>
+        <div class="col-md-12">
+          <p class="project-details"><span>assigned to:</span> El-mokawleen El-Arab</p>
+          <p class="project-details"><span>status:</span> Done with testing</p>
+          <p class="project-details"><span>from:</span>15 March 2016<span>till: </span> july 2018</p> 
+        </div>
+        <div class="row card-border">
+          <div class="col-md-7">
+            <a href="#">
+              <img class="img-fluid rounded mb-3 mb-md-0" src="images/project3.jpg" alt="project1">
+            </a>
+          </div>
+          <div class="col-md-5">
+            <h3>Project One</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.</p>
+            
+          </div>
+        </div>
+        <div class="col-md-12">
+          <p class="project-details"><span>assigned to:</span> El-mokawleen El-Arab</p>
+          <p class="project-details"><span>status:</span> Done with testing</p>
+          <p class="project-details"><span>from:</span>15 March 2016<span>till: </span> july 2018</p> 
+        </div>
+      
+      </div>
+    
+  
+  
+
+  
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+
+  <script type="text/javascript" src="scripts.js"></script>
+</body>
+
+</html>
